@@ -1,0 +1,44 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html 
+body {
+  background-size: cover;
+  background: url(https://wallpapercave.com/dwp2x/Z7zsJiP.jpg);
+  background-repeat:repeat;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+p {
+  padding-left: 20px;
+}
+iframe{
+  
+}
+.first-h1 {
+  font-size: 35px;
+  text-align:center;
+  }
+.first-div {
+  font-size:20px;
+  color:white;
+  text-align:center;
+  padding-left:15%;
+  padding-right:15%;
+  font-style: italic;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 20px;
+}
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+html
