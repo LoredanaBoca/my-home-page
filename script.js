@@ -4,11 +4,6 @@
   You can make this window bigger. 
    ===================
 */
-
-const {
-  core: { test, expect, run },
-  prettify
-} = window.jestLite;
 function getNumberOrString(value) {
   // Convert a string value to a number if possible
   let number_value = Number(value);
@@ -18,6 +13,12 @@ function getNumberOrString(value) {
     return number_value
   }
 }
+
+const {
+  core: { test, expect, run },
+  prettify
+} = window.jestLite;
+
 
 /* =================
   FIND ELEMENTS
